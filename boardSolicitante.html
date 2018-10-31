@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Dashboard Solicitante
+	</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">    
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/materialize.css">
+	<link rel="stylesheet" href="./css/auxiliar.css">
+	<script src="js/graficos/Chart.bundle.js"></script>
+	<style type="text/css">
+
+	header, main, footer {
+		padding-left: 250px;
+	}
+
+
+	@media only screen and (max-width : 992px) {
+		header, main, footer {
+			padding-left: 0;
+		}
+	}
+	</style>
+</head>
+<body style="background-color: #FAFAFA">
+
+
+	<div class="fixed" style="width: 250px;">
+		<ul class="row">
+			<li><a href=https://www.weworld.it/pt-br/ class="col s1 offset-s1 no-padding" style="margin-left: 15px;"><i><img class ="socialIcons" src="images/icons/www.svg"></i></a></li>
+			<li><a href="https://www.facebook.com/WeWorldOnlus" class="col s1 offset-s1 no-padding"><i><img class ="socialIcons" src="images/icons/facebook.svg"></i></a></li>
+			<li><a href="https://twitter.com/WeWorldOnlus" class="col s1 offset-s1 no-padding"><i><img class ="socialIcons" src="images/icons/twitter.svg"></i></a></li>
+			<li><a href="https://www.instagram.com/weworld.onlus/" class="col s1 offset-s1 no-padding"><i><img class ="socialIcons" src="images/icons/instagram.svg"></i></a></li>
+			<li><a href="https://www.youtube.com/channel/UCnc8rLAFTVNQ-NWVh_Z3pTw" class="col s1 offset-s1 no-padding"><i><img class ="socialIcons" src="images/icons/youtube.svg"></i></a></li>
+		</ul>  
+	</div>
+
+	<header>
+		
+
+		<nav>
+
+			
+
+			<div class="nav-wrapper corbg row" >
+
+			 	<div class="col s9 white-text">
+			        <a href="#!" class="breadcrumb" > <i class="material-icons white-text" style="padding-right: 30px; padding-left: 30px;">dashboard</i>Dashboard</a>			        
+			    </div>			
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					
+					<!-- TESTE -->
+					<ul id='dropdown1' class='dropdown-content cor' >
+						<li><a href="#!">Perfil</a></li>
+						<li><a href="login.html">Sair</a></li>
+					</ul>
+					<!-- TESTE -->
+					<li><span><i class="material-icons">notifications</i></span></li>
+					<li><a href="#" class="dropdown-trigger cor white-text" data-target="dropdown1"><i class="material-icons right ">account_circle</i>Usuário Solicitante</a></li>
+				</ul>
+			</div>
+
+			
+
+
+			<ul id="slide-out" class="sidenav sidenav-fixed" style="width: 250px;">
+
+				<div class="white center" style=" height: 150px;">
+					<div class="user-view center" style="padding-left: 60px; margin-left: -10px ;">
+
+						<!--<div class="circle white" >
+							<img class="responsive-img" src="images/logo1.png" style="margin-top: 40px; width: 100px; height: auto;">	
+						</div>-->
+						<img class="logo" src="images/logo1.png" style="margin-right: 70px;">	
+					</div>
+
+				</div>
+				<li>
+					<ul class="collapsible">
+						<li style="margin-bottom: 70px;">
+
+							<div class="collapsible-header cor"><i class="material-icons cor">create_new_folder</i><a href="first.html" class="no-padding cor">Solicitar projeto</a>
+							</div>
+						</li>
+						<li>
+							<div class="collapsible-header cor"><i class="material-icons cor">access_time</i>Projetos em andamento</div>
+							<div class="collapsible-body cor">
+								<span>
+									<ul>
+										<li style="background-color: #e0e0e0;"><a class="cor"><p class="cor" style="margin:  0;">Projeto Mães e Filhos</p></a></li>
+										<li><a class="cor"  href="boardSolicitante2.html"><p class="cor" style="margin:  0;"">Projeto escola para todos</p></a></li>
+										<li><a class="cor"><p class="cor" style="margin:  0;"">Projeto educação marco zero</p></a></li>
+
+									</ul>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="collapsible-header cor"><i class="material-icons cor">beenhere</i>Projetos finalizados</div>
+							<div class="collapsible-body cor">
+								<span>
+									<ul>
+										<li><a class="cor"><p class="cor" style="margin:  0;">projeto 1</p></a></li>
+										<li><a class="cor"><p class="cor" style="margin:  0;"">projeto 2</p></a></li>
+										<li><a class="cor"><p class="cor" style="margin:  0;"">projeto 3</p></a></li>
+									</ul>
+								</span>
+							</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+
+	
+	<main>
+
+		
+
+		<div class="card z-depth-0" style="margin: 15px;">
+			<div class="card-content no-padding cor">
+				<div class="row" style="margin-bottom: 0;">
+					<h4 class="col s12" style="margin-bottom: 20px; ">Projeto mães e filhos
+						<!-- <div class="col s3 right">							
+							<a class=" btn right"><i class="material-icons">dashboard</i>Dados do projeto</a>
+						</div>
+ -->
+						
+						<div class="input-field col s3 right" style="padding: 0; margin: 0;">					         
+							<select >
+								<option value="1">Visão geral</option>
+								<option value="2">jan</option>
+								<option value="3">fev</option>
+								<option value="13">mar</option>
+								<option value="4">abr</option>
+								<option value="5">mai</option>
+								<option value="6">jun</option>
+								<option value="7">jul</option>
+								<option value="8">ago</option>
+								<option value="9">set</option>
+								<option value="10">out</option>
+								<option value="11">nov</option>
+								<option value="12">dez</option>
+							</select>          
+						</div> 
+					</h4>	
+					
+				</div>
+				
+				
+				<div class="row" style="width: 100%">
+					<div class="card small col s3 red lighten-2 zoom " style="margin: 6px; width: 258px; height: 120px; border: solid white;">
+						<div class="card-content center white-text" style="padding-top: 0" >
+							<h1 class="left" style="margin-top: 20px;"> 12</h1>
+							<div style="margin-top: 35px;">
+								<span > <b>Atividades atrasadas </b></span>	
+							</div>
+						
+						</div>						
+					</div>
+					<div class="card small col s3 orange lighten-2 zoom " style="margin: 6px; width: 258px; height: 120px; border: solid white;">
+						<div class="card-content center cor  white-text" style="padding-top: 0">
+							<h1 class="left" style="margin-top: 20px;">20</h1>
+							<div style="margin-top: 35px;">
+								<span > <b>Atividades pendentes </b></span>	
+							</div>
+						</div>
+					</div> 
+					<div class="card small col s3 green lighten-2 zoom " style="margin: 6px; width: 258px; height: 120px; border: solid white;">
+						<div class="card-content center cor white-text" style="padding-top: 0;" >
+							<h1 class="left" style="margin-top: 20px;">32</h1>
+							<div style="margin-top: 35px;">
+								<span > <b>Atividades concluídas </b></span>	
+							</div>
+						</div>
+					</div>
+
+					<div class="card small col s3 blue lighten-2 zoom " style="margin: 6px; width: 258px; height: 120px; border: solid white;">
+						<div class="card-content center cor white-text" style="padding-top: 0">
+							<h1 class="left" style="margin-top: 20px;"> 13</h1>
+							<div style="margin-top: 20px;">
+								<span > <b>Atividades em andamento </b></span>	
+							</div>
+						</div>
+					</div>
+
+					<!--<div id="atvs" class="col s4" style="height: 400px; width: 800px;" ></div>-->
+					
+				</div>
+
+			</div>
+
+				<div>
+					 <div class="row cor">
+		                        <h6 class="col s9">Projeto que visa auxiliar a vida de famílias do Sertão Central. </h6>
+		     					<a href="index.html" class="btn waves-effect waves-light right " type="submit" name="action" style="margin-left: 30px; margin-right: 12px;">Dados do projeto
+					                <i class="left material-icons ">dashboard</i>
+					            </a>	
+		                        <div class="col s12" style="margin-top: 25px;"></div>
+		                        <span class="col s6 grey-text">Projeto iniciado em:</span>
+		                        <span class="col s6 grey-text">Prazo para a conclusão do Projeto: </span>
+		                        <h6 class="col s6">20/03/2017 ás 17:30</h6>
+		                        <h6 style="color: green;" class="col s6">578 dias</h6>
+		                        <div class="col s12" style="margin-top: 25px;"></div>
+		                        <span class="col s12 grey-text" >Atividade concluída em: </span>
+		                        <h6 class="col s12">Atividade em andamento</h6>
+		              </div>
+				</div>
+		</div>
+
+	
+		
+				
+			
+
+		<a href="atividades.html"><div class="card cor col s10 offset-s1  blue lighten-4" style="margin-left: 27px; margin-right: 27px; margin-bottom: 40px;">	
+			<div class="card-content" style="padding-top: 1px; padding-bottom: 9px;">
+				
+				<div class="row" style="margin-bottom: 0px;">
+					<div class="col s5">
+						<h4 style="margin-left: 50px; margin-top: 70px;">Resultado esperado 1</h4>
+						<span class=""  style="margin-left: 50px; margin-right: 50px;">Mais empregos para as mulheres da região</span>
+
+						
+					</div>
+
+					<div class="col s3 right " style="padding-right: 30px;">
+						<h5 class="right cor" style="position: absolute; margin-top: 90px; margin-left: 88px;">45%</h5>
+						<p class="right cor" style="position: absolute; margin-top: 120px; margin-left: 75px;" >Concluído</p>						
+						<canvas id="graf1" height="30" width="30"></canvas>			
+					</div>
+						
+
+					<!--<div class="col s5 right">
+						<div id="graf1" style="width: 100%; height: 300px; background-color: #FFFFFF;" ></div>
+					</div>-->
+				</div>
+				
+				
+			</div>			
+		</div></a>
+
+		<div class="card cor col s10 offset-s1 blue lighten-4" style="margin-left: 27px; margin-right: 27px; margin-bottom: 40px;">			
+			<div class="card-content"  style="padding-top: 1px; padding-bottom: 9px;">
+				
+				<div class="row" style="margin-bottom: 0px;">
+					<div class="col s5">
+					<h4 style="margin-left: 50px; margin-top: 70px;">Resultado esperado 2</h4>
+					<span class=""  style="margin-left: 50px; margin-right: 50px; margin-bottom: 50px;">Mais empregos para as mulheres da região</span>
+						
+					</div>
+					<div class="col s3 right " style="padding-right: 30px;">
+						<h5 class="right cor" style="position: absolute; margin-top: 90px; margin-left: 88px;">35%</h5>
+						<p class="right cor" style="position: absolute; margin-top: 120px; margin-left: 75px;" >Concluído</p>						
+						<canvas id="graf3" width="30" height="30"></canvas>			
+					</div>
+
+						
+
+					<!--<div class="col s5 right">
+						<div id="graf1" style="width: 100%; height: 300px; background-color: #FFFFFF;" ></div>
+					</div>-->
+				</div>
+				
+				
+			</div>			
+		</div>
+		
+
+		<div class="card cor col s10 offset-s1 blue lighten-4" style="margin-left: 27px; margin-right: 27px; margin-bottom: 40px;">			
+			<div class="card-content"  style="padding-top: 1px; padding-bottom: 9px;">
+				
+				<div class="row"  style="margin-bottom: 0px;">
+					<div class="col s5">
+					<h4 style="margin-left: 50px; margin-top: 70px;">Resultado esperado 3</h4>
+					<span class=""  style="margin-left: 50px; margin-right: 50px; margin-bottom: 50px;">Mais empregos para as mulheres da região</span>
+						
+					</div>
+					<div class="col s3 right " style="padding-right: 30px;">
+						<h5 class="right cor" style="position: absolute; margin-top: 90px; margin-left: 88px;">10%</h5>
+						<p class="right cor" style="position: absolute; margin-top: 120px; margin-left: 75px;" >Concluído</p>						
+						<canvas id="graf4" width="10vw" height="10vw"></canvas>			
+					</div>
+						
+					<!--<div class="col s5 right">
+						<div id="graf1" style="width: 100%; height: 300px; background-color: #FFFFFF;" ></div>
+					</div>-->
+				</div>
+				
+				
+			</div>			
+		</div>
+		
+
+	</main>
+
+
+
+	<script src="jquery-3.3.1.min.js"></script>
+	
+	
+
+
+	<script type="text/javascript" src="js/amcharts.js"></script>
+	<script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
+	<script type="text/javascript" src="js/graficos.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/graficos/grafs.js"></script>
+
+	<script type="text/javascript">M.AutoInit();</script>
+</body>
+</html>

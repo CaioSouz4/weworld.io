@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Dashboard Solicitante
+  </title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/materialize.css">
+  <link rel="stylesheet" href="./css/auxiliar.css">
+  <style type="text/css">
+  header, main, footer {
+    padding-left: 250px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+</style>
+
+</head>
+<body style="background-color: #FAFAFA">
+
+
+  <div class="fixed" style="width: 250px;">
+    <ul class="row">
+      <li><a href=https://www.weworld.it/pt-br/ class="col s1 offset-s1 no-padding" style="margin-left: 15px;"><i><img class ="socialIcons" src="images/icons/www.svg"></i></a></li>
+      <li><a href="https://www.facebook.com/WeWorldOnlus" class="col s1 offset-s1 no-padding"><i><img class ="socialIcons" src="images/icons/facebook.svg"></i></a></li>
+      <li><a href="https://twitter.com/WeWorldOnlus" class="col s1 offset-s1 no-padding"><i><img class ="socialIcons" src="images/icons/twitter.svg"></i></a></li>
+      <li><a href="https://www.instagram.com/weworld.onlus/" class="col s1 offset-s1 no-padding"><i><img class ="socialIcons" src="images/icons/instagram.svg"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCnc8rLAFTVNQ-NWVh_Z3pTw" class="col s1 offset-s1 no-padding"><i><img class ="socialIcons" src="images/icons/youtube.svg"></i></a></li>
+    </ul>  
+  </div>
+
+  
+  <header>
+    
+
+    <nav>
+      <div class="nav-wrapper corbg"  >     
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- TESTE -->
+          <ul id='dropdown1' class='dropdown-content cor' >
+            <li><a href="#!">Perfil</a></li>
+            <li><a href="#!">Sair</a></li>
+          </ul>
+          <!-- TESTE -->
+          <li><span><i class="material-icons">notifications</i></span></li>
+          <li><a href="#" class="dropdown-trigger cor white-text" data-target="dropdown1"><i class="material-icons right ">account_circle</i>Usuário Solicitante</a></li>
+        </ul>
+      </div>
+
+      
+
+
+      <ul id="slide-out" class="sidenav sidenav-fixed" style="width: 250px;">
+
+        <div class="white center" style=" height: 150px;">
+          <div class="user-view center" style="padding-left: 60px; margin-left: -10px ;">
+
+            <!--<div class="circle white" >
+              <img class="responsive-img" src="images/logo1.png" style="margin-top: 40px; width: 100px; height: auto;"> 
+            </div>-->
+            <a href="boardSolicitante.html"><img class="logo" src="images/logo1.png" style="margin-right: 70px;"></a>
+          </div>
+
+        </div>
+        <li>
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header cor"><i class="material-icons cor">access_time</i>Projetos em andamento</div>
+              <div class="collapsible-body cor">
+                <span>
+                  <ul>
+                    <li><a class="cor"><i class="material-icons indigo-text left">description</i><p class="cor" style="margin:  0;">projeto 1</p></a></li>
+                    <li><a class="cor"><i class="material-icons indigo-text left">description</i><p class="cor" style="margin:  0;"">projeto 2</p></a></li>
+                    <li><a class="cor"><i class="material-icons indigo-text left">description</i><p class="cor" style="margin:  0;"">projeto 3</p></a></li>
+
+                  </ul>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header cor"><i class="material-icons cor">beenhere</i>Projetos finalizados</div>
+              <div class="collapsible-body cor">
+                <span>
+                  <ul>
+                    <li><a class="cor"><i class="material-icons indigo-text left">description</i><p class="cor" style="margin:  0;">projeto 1</p></a></li>
+                    <li><a class="cor"><i class="material-icons indigo-text left">description</i><p class="cor" style="margin:  0;"">projeto 2</p></a></li>
+                    <li><a class="cor"><i class="material-icons indigo-text left">description</i><p class="cor" style="margin:  0;"">projeto 3</p></a></li>
+                  </ul>
+                </span>
+              </div>
+            </li>
+            
+            <li>
+              <a href="index.html" class="no-padding"><div class="collapsible-header cor"><i class="material-icons cor">create_new_folder</i>Solicitar projeto</div></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="right" style="width: 82%;">
+
+    <h4 class="cor" style="padding-left: 6%;">Novo Projeto</h4>
+         
+         
+         <div class="row" style="padding-left: 5%; padding-right: 5%;">
+
+            <div class="col s12 m4">
+                 <a href="infogerais.html" class="zoom"> 
+                  <div class="card">
+                        <div class="card-content cor row cardaux green-text" style="margin-bottom: 0px">
+
+                              <div class="col s2">
+                                    <i class="medium material-icons green-text">content_paste</i> 
+                              </div>
+                              <div class="col s8 offset-s1">
+                                    <span class="card-title">Informações Gerais</span>   
+                              </div>
+                        </div>      
+                        <div class="card-action">
+                              <p class="green-text">Concluído</p>
+                        </div>
+
+
+                        <div class="progress">
+                            <div class="determinate green" style="width:100%; padding: 12px;"></div>
+                        </div>
+                        
+                  </div>
+              </a>
+
+              <a href="contexto.html"  class="zoom">
+                    <div class="card white">
+                          <div class="card-content cor row" style="margin-bottom: 0px">
+
+                                <div class="col s2">
+                                      <i class="medium material-icons cor">public</i> 
+                                </div>
+                                <div class="col s8 offset-s1">
+                                      <span class="card-title">Contexto</span>   
+                                </div>
+                          </div>      
+                          <div class="card-action">
+                                <p class="cor">Relacionamentos e contexto da intervenção</p>
+                          </div>
+
+
+                          <div class="progress">
+                              <div class="determinate" style="width: 10%; padding: 12px;"></div>
+                          </div>
+                    </div>
+              </a>
+
+              <a href="orcamento.html"  class="zoom">
+                    <div class="card white">
+                          <div class="card-content cor row" style="margin-bottom: 0px">
+
+                                <div class="col s2">
+                                      <i class="medium material-icons cor">monetization_on</i> 
+                                </div>
+                                <div class="col s8 offset-s1">
+                                      <span class="card-title">Orçamento</span>   
+                                </div>
+                          </div>      
+                          <div class="card-action">
+                                <p class="cor">Informações sobre o orçamento da intervenção</p>                                     
+                          </div>
+
+
+                          <div class="progress">
+                              <div class="determinate" style="width: 30%; padding: 12px;"></div>
+                          </div>
+
+                    </div>
+              </a>
+
+
+
+            </div>
+
+
+            <div class="col s12 m4">
+
+                  <a href="resumoprojeto.html"  class="zoom">
+                        <div class="card white">
+                              <div class="card-content cor row cardaux" style="margin-bottom: 0px">
+
+                                    <div class="col s2">
+                                          <i class="medium material-icons cor">comment</i> 
+                                    </div>
+                                    <div class="col s8 offset-s1">
+                                          <span class="card-title">Resumo do Projeto</span>   
+                                    </div>
+                              </div>      
+                              <div class="card-action">
+                                    <p class="cor">Resumo sobre a intervenção</p>
+                              </div>
+
+
+                              <div class="progress">
+                                  <div class="determinate" style="width: 50%; padding: 12px;"></div>
+                              </div>
+
+                        </div>
+                  </a>
+
+                  <a href="metodologia.html"  class="zoom">
+                        <div class="card white">
+                              <div class="card-content cor row" style="margin-bottom: 0px">
+
+                                    <div class="col s2">
+                                          <i class="medium material-icons cor">settings</i> 
+                                    </div>
+                                    <div class="col s8 offset-s1">
+                                          <span class="card-title">Metodologia</span>   
+                                    </div>
+                              </div>      
+                              <div class="card-action"> 
+                                    <p class="cor">Descrição sobre a organização a ser adotada</p>
+                              </div>
+
+
+                              <div class="progress">
+                                  <div class="determinate" style="width: 70%; padding: 12px;"></div>
+                              </div>
+
+                        </div>
+                  </a>
+
+                  <a href="apadrinhamento.html"  class="zoom">
+                        <div class="card white">
+                              <div class="card-content cor row" style="margin-bottom: 0px">
+
+                                    <div class="col s2">
+                                          <i class="medium material-icons cor">supervisor_account</i> 
+                                    </div>
+                                    <div class="col s8 offset-s1">
+                                          <span class="card-title">Apadrinhamento</span>   
+                                    </div>
+
+
+                              </div>      
+                              <div class="card-action">
+
+                                    <p class="cor">Informações sobre os apadrinhamentos do projeto</p>
+                              </div>
+
+
+                              <div class="progress">
+                                  <div class="determinate" style="width: 90%; padding: 12px;"></div>
+                              </div>
+
+                        </div>
+                  </a>
+            </div>
+
+            <div class="col s12 m4 ">
+
+                  <a href="descricaoprojeto.html"  class="zoom">
+                        <div class="card white">
+                              <div class="card-content cor row cardaux" style="margin-bottom: 0px">
+                                    <div class="col s2">
+                                          <i class="medium material-icons cor">description</i> 
+                                    </div>
+                                    <div class="col s8 offset-s1">
+                                          <span class="card-title">Descrição do Projeto</span>   
+                                    </div>
+
+                              </div>      
+                              <div class="card-action">
+                                  <p class="cor">Descrição detalhada do projeto</p>
+                            </div>
+
+
+                            <div class="progress">
+                                <div class="determinate" style="width: 70%; padding: 12px;"></div>
+                            </div>
+
+                      </div>
+                  </a>
+
+              <a href="sustentabilidade.html"  class="zoom">
+                  <div class="card white">
+                        <div class="card-content cor row" style="margin-bottom: 0px">
+                              <div class="col s2">
+                                    <i class="medium material-icons cor">work</i> 
+                              </div>
+                              <div class="col s8 offset-s1">
+                                    <span class="card-title">Sustentabilidade</span>   
+                              </div>
+
+                        </div>      
+                        <div class="card-action">
+                              <p class="cor">Sustentabilidade financeira da organização</p>
+                        </div>
+
+
+                          <div class="progress">
+                              <div class="determinate" style="width: 20%; padding: 12px;"></div>
+                          </div>
+
+                  </div>
+
+              </a>
+              <a href="cronograma.html"  class="zoom">
+                    <div class="card white">
+                          <div class="card-content cor row" style="margin-bottom: 0px">
+                                <div class="col s2">
+                                      <i class="medium material-icons cor">date_range</i> 
+                                </div>
+                                <div class="col s8 offset-s1">
+                                      <span class="card-title">Cronograma</span>   
+                                </div>
+
+                          </div>      
+                          <div class="card-action">
+                                <p class="cor">Cronograma a ser executado no projeto</p>
+                          </div>
+
+
+                          <div class="progress">
+                              <div class="determinate" style="width: 50%; padding: 12px;"></div>
+                          </div>
+
+                    </div>
+              </a>
+
+            </div>
+          
+       
+          
+          <div class="section"></div>
+  </div>
+
+  
+
+  <script src="jquery-3.3.1.min.js"></script>
+  
+  
+
+
+  <script type="text/javascript" src="js/amcharts.js"></script>
+  <script type="text/javascript" src="https://www.amcharts.com/lib/3/pie.js"></script>
+  <script type="text/javascript" src="js/graficos.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <script type="text/javascript">M.AutoInit();</script>
+
+
+
+</body>
+</html>
